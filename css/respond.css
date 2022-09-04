@@ -1,0 +1,64 @@
+/************ response *************/
+@media screen and (max-width:1280px){
+    .fombox{padding: 14% 0;}
+}
+
+@media screen and (max-width:991px){
+    .fombox{padding: 17% 0;}
+}
+
+@media screen and (max-width:767px){
+    .fombox{padding: 26% 0;}
+    #quote span {font-size: 18px;}
+
+    #weather {width: 190px;}
+    #weather span {font-size: 15px;}
+}
+
+@media screen and (max-width:640px){
+    /* todo */
+    #todo-form input {width: 450px; font-size: 14px;}
+    #todo-list {width: 450px; font-size: 14px;}
+
+    #clock {font-size: 30px;}
+    #greeting {font-size: 45px;}
+
+    /* login */
+    #login-form {padding-top: 15px;}
+    .log_txt {width: 300px; font-size: 14px;}
+    .btn {font-size: 14px;}
+
+    /* quote */
+    #quote span {font-size: 16px;}
+
+    /* todo */
+    #todo-list span {font-size: 18px;}
+    
+    /* weather */
+    #weather {padding:8px; width: 185px;}
+    #weather span{font-size: 14px;}
+}
+
+@media screen and (max-width:480px){
+    .fombox{padding: 45% 0;}
+
+    #clock {font-size: 20px;}
+    #greeting {font-size: 35px;}
+
+    /* login */
+    #login-form {padding-top: 10px;}
+    .log_txt {width: 220px; font-size: 12px;}
+    .btn {width:70px; font-size: 12px;}
+
+    /* quote */
+    #quote span {font-size: 14px;}
+
+    /* todo */
+    #todo-form input {width: 350px; font-size: 12px;}
+    #todo-list {width: 350px; font-size: 12px;}
+    #todo-list span {font-size: 16px;}
+
+    /* weather */
+    #weather {padding:7px; width: 130px;}
+    #weather span{font-size: 10px;}
+}
